@@ -1,0 +1,23 @@
+[
+ 
+ 
+ {
+	   "uri": "/recipes/",
+	   "title": "Recipes",
+	   "tags": [],
+	   "description": "",
+	   "content": ""
+ }
+ 
+ 
+ 
+ ,
+ {
+	   "uri": "/recipes/nameofrecipe/",
+	   "title": "Test post",
+	   "tags": [],
+	   "description": "",
+	   "content": "\nIngredients () Instructions (Time: ) "
+ }
+ 
+ ]

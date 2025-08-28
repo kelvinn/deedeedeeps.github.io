@@ -1,0 +1,37 @@
+baseURL = 'https://www.deedeedeeps.github.io/'
+languageCode = 'en-us'
+title = "Deedeedeeps"
+theme = "quietfoodie"
+
+[permalinks]
+posts = "/:year/:month/:title"
+
+
+[params]
+    mainSections = ['Recipes']
+    authorname = "Author"
+    # change to false if you don't want to use recipe schema markup
+    recipeSchema = true
+    disableSpecial1stPost = true
+    ShowReadingTime = true
+    ShowBreadCrumbs = false
+    ShowPostNavLinks = false
+
+[markup.goldmark.renderHooks.image]
+    enableDefault = true
+
+[markup.goldmark.renderHooks.link]
+    enableDefault = true
+
+[taxonomies]
+    tag = "tags"
+    course = "courses"
+
+[outputs]
+    home = ["HTML", "JSON", "RSS"]
+
+[module]
+    [module.hugoVersion]
+    min = "0.41.0"
+# if your baseurl is not the site root, set canonifyurls to true (if you're hosting on github pages, for example)
+    canonifyURLs = true
